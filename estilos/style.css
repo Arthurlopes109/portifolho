@@ -37,6 +37,9 @@ header{
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;/*fixa o menu*/
+  top: 0;/*fixa o menu*/
+  z-index: 1;/*arruma o video*/ 
 }
 
 nav#menu ul{
